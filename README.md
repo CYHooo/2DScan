@@ -31,7 +31,8 @@
 ---
 
 ## Result
-
-<img src="/img/img2.jpg" alt="Original Image">
-<img src="/result/mergeLine.png" alt="MergeLine Image">
-<img src="/result/outLine.png" alt="OutLine Image">
+<div style="display: flex; justify-content: space-between;">
+  <img src="/img/img2.jpg" alt="Original Image" style="width: 200px;">
+  <img src="/result/mergeLine.png" alt="MergeLine Image" style="width: 200px;">
+  <img src="/result/outLine.png" alt="OutLine Image" style="width: 200px;">
+</div>
