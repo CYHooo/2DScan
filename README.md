@@ -11,6 +11,7 @@
  - `pillow` == 10.1.0
  - `scikit-image` == 0.22.0
  - `matplotlib` == 3.8.2
+ - `opencv-python` = 4.8.1.78
 
 ---
 
