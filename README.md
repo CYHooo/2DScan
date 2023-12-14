@@ -31,7 +31,7 @@
 ---
 
 ## Result
-<div style="display: flex; justify-content: center; align-items: center; gap: 5px;">
+<div style="display: flex; justify-content: center; align-items: center; gap: 20px;">
   <div style="text-align: center;">
     <img src="/img/img2.jpg" alt="Original Image" style="width: 200px;">
     <p>Original</p>
