@@ -130,7 +130,7 @@ def connectLine(imgPath:str, savePath:str, cropImg=False, debug=False) -> None:
     contours = cv2.findContours(thresh, cv2.RETR_EXTERNAL,  cv2.CHAIN_APPROX_SIMPLE)[0]
 
     bgrImg = cv2.cvtColor(img, cv2.COLOR_GRAY2BGR)
-    blackImg = np.ones((img.shape[0],img.shape[1],3), dtype=np.uint8)*255
+    blackImg = np.ones((img.shape[0],img.shape[1],3), dtype=np.uint8)*255 ## white background (*255)
     cv2.drawContours(bgrImg, contours, -1, (0,128,255), 3)
     cv2.drawContours(blackImg, contours, -1, (0,128,255), 3)
     os.makedirs(savePath, exist_ok=True)

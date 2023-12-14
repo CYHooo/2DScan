@@ -1,6 +1,8 @@
 *.png
+!mergeLine.png
+!outLine.png
 *.jpg
 *.zip
 img/
-result/
+!img2.jpg
 debug/
