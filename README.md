@@ -31,3 +31,7 @@
 ---
 
 ## Result
+
+<img src="/img/img2.jpg" alt="Original Image">
+<img src="/result/mergeLine.png" alt="MergeLine Image">
+<img src="/result/outLine.png" alt="OutLine Image">
