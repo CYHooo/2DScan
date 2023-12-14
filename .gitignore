@@ -3,6 +3,6 @@
 !outLine.png
 *.jpg
 *.zip
-img/
-!img2.jpg
+/img/*
+!/img/img2.jpg
 debug/
