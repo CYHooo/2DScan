@@ -1,0 +1,6 @@
+*.png
+*.jpg
+*.zip
+img/
+result/
+debug/
