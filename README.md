@@ -31,17 +31,17 @@
 ---
 
 ## Result
-<div style="display: flex; justify-content: center; align-items: center; gap: 20px;">
+<div style="display: flex; justify-content: center; align-items: center; gap: 10px;">
   <div style="text-align: center;">
-    <img src="/img/img2.jpg" alt="Original Image" style="width: 200px;">
+    <img src="/img/img2.jpg" alt="Original Image" style="width: 100px;">
     <p>Original</p>
   </div>
   <div style="text-align: center;">
-    <img src="/result/mergeLine.png" alt="MergeLine Image" style="width: 200px;">
+    <img src="/result/mergeLine.png" alt="MergeLine Image" style="width: 100px;">
     <p>MergeLine</p>
   </div>
   <div style="text-align: center;">
-    <img src="/result/outLine.png" alt="OutLine Image" style="width: 200px;">
+    <img src="/result/outLine.png" alt="OutLine Image" style="width: 100px;">
     <p>OutLine</p>
   </div>
 </div>
