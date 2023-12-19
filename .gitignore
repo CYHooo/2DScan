@@ -1,5 +1,5 @@
 # 忽略 Python 字节码文件
-**/__pycache__/
+**/__pycache__
 
 # 忽略不必要的图片
 *.jpg

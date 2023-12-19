@@ -35,7 +35,7 @@ class MainWindow(QMainWindow):
         self.load_button.clicked.connect(self.load_image)
         self.search_button.clicked.connect(self.search_line)
         self.save_button.clicked.connect(self.save_image)
-        
+        96
         # 按钮样式
         button_style = "QPushButton { text-align: center; padding: 5px; margin: 2px; width: 100%}"
         self.load_button.setStyleSheet(button_style)
