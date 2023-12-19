@@ -101,7 +101,7 @@ def transform(imgPath:str, debug=False):
 
 
 
-def connectLine(imgPath:str, savePath:str, cropImg=False, debug=False) -> None:
+def connectLine(imgPath:str, cropImg=False, debug=False) -> None:
     '''
         将图中物体的外观线画出来。通过二值化, 收缩膨胀, 闭运算, 将线段连接成一个整体后画出轮廓。
         - `mergeLine`: 在原图上画出轮廓线
@@ -133,10 +133,11 @@ def connectLine(imgPath:str, savePath:str, cropImg=False, debug=False) -> None:
     blackImg = np.ones((img.shape[0],img.shape[1],3), dtype=np.uint8)*255 ## white background (*255)
     cv2.drawContours(bgrImg, contours, -1, (0,128,255), 3)
     cv2.drawContours(blackImg, contours, -1, (0,128,255), 3)
-    os.makedirs(savePath, exist_ok=True)
-    cv2.imwrite(savePath + 'mergeLine.png', bgrImg)
-    cv2.imwrite(savePath + 'outLine.png', blackImg)
-    
+    # os.makedirs(savePath, exist_ok=True)
+    # cv2.imwrite(savePath + 'mergeLine.png', bgrImg)
+    # cv2.imwrite(savePath + 'outLine.png', blackImg)
+    return bgrImg, blackImg
+
 if __name__ == "__main__":
     imgPath = 'img/img2.jpg'
     savePath = 'result/'
