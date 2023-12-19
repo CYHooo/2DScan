@@ -1,8 +1,16 @@
+# 忽略 Python 字节码文件
+**/__pycache__/
+
+# 忽略不必要的图片
+*.jpg
+*.zip
 *.png
 !mergeLine.png
 !outLine.png
-*.jpg
-*.zip
+
+# 保留测试图片
 /img/*
 !/img/img2.jpg
+
+# 忽略调试文件夹图片
 debug/
