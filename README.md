@@ -4,9 +4,9 @@
 
 ---
 
-## <input type='checkbox' checked> TODO
+## TODO
 
- - <input type='checkbox' disabled> v1.1正在开发增加可视化窗口交互功能
+ - [ ] v1.1正在开发增加可视化窗口交互功能
 
 ---
 
